@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import './Navbar.css'
+import './navbar.css'
 import logo from '../../assets/srm.svg'
 import { Link } from 'react-scroll';
 import menu_icon from '../../assets/menu-icon.png'
