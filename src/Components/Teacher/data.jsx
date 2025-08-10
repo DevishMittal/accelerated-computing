@@ -1,7 +1,6 @@
 import fac_1 from '../../assets/faculty_img/Ponmagal R S.jpg'
 import fac_2 from '../../assets/faculty_img/Kirubanantham P.jpg'
 import fac_3 from '../../assets/faculty_img/Jeya R.jpg'
-import fac_4 from '../../assets/faculty_img/Thamizhikkavi P.jpg'
 import fac_5 from '../../assets/faculty_img/Kanmani S P.jpg'
 import fac_6 from '../../assets/faculty_img/Jagadeesan S.jpg'
 import fac_7 from '../../assets/faculty_img/Sathyapriya L.jpg'
@@ -29,20 +28,14 @@ import fac_28 from '../../assets/faculty_img/Renuka Devi P.jpg'
 import fac_29 from '../../assets/faculty_img/Jeyasekar.jpg'
 import fac_30 from '../../assets/faculty_img/jansik.jpg'
 import fac_31 from '../../assets/faculty_img/Dr. Ramaprabha J.jpg'
+import fac_32 from '../../assets/faculty_img/Balamurugan.jpg'
+import fac_33 from '../../assets/faculty_img/Ramya-G.jpg'
+import fac_34 from '../../assets/faculty_img/kavitha.jpg'
+import fac_35 from '../../assets/faculty_img/sivasakth.jpg'
 
 const people = [
-    {
-      id: 1,
-      image: fac_22,
-      name: 'Dr. B. Amutha ',
-      title: 'Professor',
-      quote: (
-        <>
-          Department of Computing Technologies <br /> Mail Id: amuthab@srmist.edu.in
-        </>
-      ),
-    },
-    {
+    
+      {
         id: 1,
         image: fac_19,
         name: 'Dr. D. Malathi',
@@ -54,9 +47,21 @@ const people = [
         ),
       },
       {
+      id: 1,
+      image: fac_22,
+      name: 'Dr. B. Amutha ',
+      title: 'Professor',
+      quote: (
+        <>
+          Department of Computing Technologies <br /> Mail Id: amuthab@srmist.edu.in
+        </>
+      ),
+    },
+
+      {
         id: 1,
         image: fac_29,
-        name: 'Dr. Jeyasekar A',
+        name: 'Dr. A. Jeyasekar',
         title: 'Associate Professor',
         quote: (
           <>
@@ -89,7 +94,7 @@ const people = [
       {
         id: 1,
         image: fac_12,
-        name: 'Dr. J. D. Dorathi Jayaseeli',
+        name: 'Dr. JD. Dorathi Jayaseeli',
         title: 'Associate Professor',
         quote: (
           <>
@@ -97,28 +102,51 @@ const people = [
           </>
         ),
       },
-      {
-        id: 1,
-        image: fac_30,
-        name: 'Dr. Jansi K. R.',
-        title: 'Assistant Professor',
-        quote: (
-          <>
-            Department of Computing Technologies <br /> Mail Id: jansik@srmist.edu.in
-          </>
-        ),
-      },
-      {
+            {
         id: 1,
         image: fac_3,
         name: 'Dr. R. Jeya',
-        title: 'Assistant Professor',
+        title: 'Associate Professor',
         quote: (
           <>
             Department of Computing Technologies <br /> Mail Id: jeyar@srmist.edu.in
           </>
         ),
       },
+      {
+        id: 1,
+        image: fac_30,
+        name: 'Dr. K. R. Jansi',
+        title: 'Associate Professor',
+        quote: (
+          <>
+            Department of Computing Technologies <br /> Mail Id: jansik@srmist.edu.in
+          </>
+        ),
+      },
+            {
+        id: 1,
+        image: fac_13,
+        name: 'Dr. R. Vidhya',
+        title: 'Associate Professor',
+        quote: (
+          <>
+            Department of Computing Technologies <br /> Mail Id: vidhyar@srmist.edu.in
+          </>
+        ),
+      },
+         {
+        id: 1,
+        image: fac_24,
+        name: 'Dr. K. Deeba',
+        title: 'Associate Professor',
+        quote: (
+          <>
+            Department of Computing Technologies <br /> Mail Id: deebak@srmist.edu.in 
+          </>
+        ),
+      },
+
       {
         id: 1,
         image: fac_10,
@@ -155,41 +183,8 @@ const people = [
       },
       {
         id: 1,
-        image: fac_13,
-        name: 'Dr. R. Vidhya',
-        title: 'Assistant Professor',
-        quote: (
-          <>
-            Department of Computing Technologies <br /> Mail Id: vidhyar@srmist.edu.in
-          </>
-        ),
-      },
-      {
-        id: 1,
-        image: fac_24,
-        name: 'Dr. K. Deeba',
-        title: 'Assistant Professor',
-        quote: (
-          <>
-            Department of Computing Technologies <br /> Mail Id: deebak@srmist.edu.in 
-          </>
-        ),
-      },
-      {
-        id: 1,
-        image: fac_26,
-        name: 'Mrs. D. Vanusha',
-        title: 'Assistant Professor',
-        quote: (
-          <>
-            Department of Computing Technologies <br /> Mail Id: vanushad@srmist.edu.in 
-          </>
-        ),
-      },
-      {
-        id: 1,
         image: fac_5,
-        name: 'Mrs. Kanmani S. P.',
+        name: 'Dr. S. P. Kanmani',
         title: 'Assistant Professor',
         quote: (
           <>
@@ -197,10 +192,10 @@ const people = [
           </>
         ),
       },
-      {
+        {
         id: 1,
         image: fac_25,
-        name: 'Mrs. Vathana D.',
+        name: 'Mrs. D. Vathana',
         title: 'Assistant Professor',
         quote: (
           <>
@@ -208,10 +203,23 @@ const people = [
           </>
         ),
       },
+      // {
+      //   id: 1,
+      //   image: fac_26,
+      //   name: 'Mrs. D. Vanusha',
+      //   title: 'Assistant Professor',
+      //   quote: (
+      //     <>
+      //       Department of Computing Technologies <br /> Mail Id: vanushad@srmist.edu.in 
+      //     </>
+      //   ),
+      // },
+
+ 
       {
         id: 1,
         image: fac_14,
-        name: 'Dr. Revathi M.',
+        name: 'Dr. M. Revathi',
         title: 'Assistant Professor',
         quote: (
           <>
@@ -222,11 +230,11 @@ const people = [
       {
         id: 1,
         image: fac_28,
-        name: 'Mrs. P. Renukadevi',
+        name: 'Dr. P. Renukadevi',
         title: 'Assistant Professor',
         quote: (
           <>
-            Department of Computing Technologies <br /> Mail Id: renukdp@srmist.edu.in
+            Department of Computing Technologies <br /> Mail Id: renukadp@srmist.edu.in
           </>
         ),
       },
@@ -244,7 +252,7 @@ const people = [
       {
         id: 1,
         image: fac_31,
-        name: 'Dr. Ramaprabha J.',
+        name: 'Dr. J. Ramaprabha',
         title: 'Assistant Professor',
         quote: (
           <>
@@ -255,7 +263,7 @@ const people = [
       {
         id: 1,
         image: fac_2,
-        name: 'Dr. Kirubanantham P.',
+        name: 'Dr. P. Kirubanantham',
         title: 'Assistant Professor',
         quote: (
           <>
@@ -274,21 +282,21 @@ const people = [
           </>
         ),
       },
-      {
-        id: 1,
-        image: fac_15,
-        name: 'Dr. R. Thamizhamuthu',
-        title: 'Assistant Professor',
-        quote: (
-          <>
-            Department of Computing Technologies <br /> Mail Id: thamizhr@srmist.edu.in
-          </>
-        ),
-      },
+      // {
+      //   id: 1,
+      //   image: fac_15,
+      //   name: 'Dr. R. Thamizhamuthu',
+      //   title: 'Assistant Professor',
+      //   quote: (
+      //     <>
+      //       Department of Computing Technologies <br /> Mail Id: thamizhr@srmist.edu.in
+      //     </>
+      //   ),
+      // },
       {
         id: 1,
         image: fac_7,
-        name: 'Dr. Sathyapriya L.',
+        name: 'Dr. L. Sathyapriya',
         title: 'Assistant Professor',
         quote: (
           <>
@@ -298,15 +306,37 @@ const people = [
       },
       {
         id: 1,
-        image: fac_11,
-        name: 'Dr. A. Anbarasi',
+        image: fac_33,
+        name: 'Dr. G. Ramya',
         title: 'Assistant Professor',
         quote: (
           <>
-            Department of Computing Technologies <br /> Mail Id: anbarasa3@srmist.edu.in
+            Department of Computing Technologies <br /> Mail Id: ramyag3@srmist.edu.in
           </>
         ),
       },
+      {
+        id:1,
+        image: fac_32,
+        name: 'Dr. G. Balamurugan',
+        title: 'Assistant Professor',
+        quote: (
+          <>
+            Department of Computing Technologies <br /> Mail Id: balamurg1@srmist.edu.in
+          </>
+        ),
+      },
+      // {
+      //   id: 1,
+      //   image: fac_11,
+      //   name: 'Dr. A. Anbarasi',
+      //   title: 'Assistant Professor',
+      //   quote: (
+      //     <>
+      //       Department of Computing Technologies <br /> Mail Id: anbarasa3@srmist.edu.in
+      //     </>
+      //   ),
+      // },
       {
         id: 1,
         image: fac_21,
@@ -318,21 +348,34 @@ const people = [
           </>
         ),
       },
-      {
-        id: 1,
-        image: fac_20,
-        name: 'Dr. Saranya V.S.',
-        title: 'Assistant Professor',
-        quote: (
-          <>
-            Department of Computing Technologies <br /> Mail Id: saranyav3@srmist.edu.in
-          </>
-        ),
-      },
-      {
+      // {
+      //   id: 1,
+      //   image: fac_20,
+      //   name: 'Dr. Saranya V.S.',
+      //   title: 'Assistant Professor',
+      //   quote: (
+      //     <>
+      //       Department of Computing Technologies <br /> Mail Id: saranyav3@srmist.edu.in
+      //     </>
+      //   ),
+      // },
+ 
+
+      // {
+      //   id: 1,
+      //   image: fac_8,
+      //   name: 'Mrs. Ramya M.',
+      //   title: 'Assistant Professor Jr.G',
+      //   quote: (
+      //     <>
+      //       Department of Computing Technologies <br /> Mail Id: ramyam5@srmist.edu.in 
+      //     </>
+      //   ),
+      // },
+           {
         id: 1,
         image: fac_16,
-        name: 'Dr. Ajanthaa Lakkshmanan',
+        name: 'Dr. Ajanthaa lakkshmanan',
         title: 'Assistant Professor',
         quote: (
           <>
@@ -340,11 +383,33 @@ const people = [
           </>
         ),
       },
-      {
+      // {
+      //   id: 1,
+      //   image: fac_4,
+      //   name: 'Mr. Tamizhikkavi P.',
+      //   title: 'Assistant Professor Jr.G',
+      //   quote: (
+      //     <>
+      //       Department of Computing Technologies <br /> Mail Id: thamizhp2@srmist.edu.in
+      //     </>
+      //   ),
+      // },
+      // {
+      //   id: 1,
+      //   image: fac_34,
+      //   name: 'Mrs. Kavitha S.',
+      //   title: 'Assistant Professor Jr.G',
+      //   quote: (
+      //     <>
+      //       Department of Computing Technologies <br /> Mail Id: kavithas@srmist.edu.in
+      //     </>
+      //   ),
+      // },
+            {
         id: 1,
         image: fac_9,
-        name: 'Mrs. Rekha G.',
-        title: 'Assistant Professor Jr.G',
+        name: 'Mrs. G. Rekha',
+        title: 'Assistant Professor(Jr.G)',
         quote: (
           <>
             Department of Computing Technologies <br /> Mail Id: rekhag1@srmist.edu.in 
@@ -352,28 +417,28 @@ const people = [
         ),
       },
       {
-        id: 1,
-        image: fac_8,
-        name: 'Mrs. Ramya M.',
-        title: 'Assistant Professor Jr.G',
+        id:1,
+        image: fac_34,
+        name: 'Dr. R. Kavitha',
+        title: 'Assistant Professor',
         quote: (
           <>
-            Department of Computing Technologies <br /> Mail Id: ramyam5@srmist.edu.in 
+            Department of Computing Technologies <br /> Mail Id: kavithar14@srmist.edu.in
           </>
         ),
       },
       {
         id: 1,
-        image: fac_4,
-        name: 'Mr. Tamizhikkavi P.',
-        title: 'Assistant Professor Jr.G',
+        image: fac_35,
+        name: 'Dr. S. Sivasakthi Selvan',
+        title: 'Assistant Professor',
         quote: (
           <>
-            Department of Computing Technologies <br /> Mail Id: thamizhp2@srmist.edu.in
+            Department of Computing Technologies <br /> Mail Id: sivasaks1@srmist.edu.in
           </>
         ),
       },
-
+      
   ];
   
   export default people;
