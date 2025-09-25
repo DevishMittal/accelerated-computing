@@ -1,4 +1,3 @@
-import React, { useState } from 'react'
 import About from './Components/About/About'
 import Hero from './Components/Hero/Hero'
 import Navbar from './Components/navbar/navbar'
@@ -6,6 +5,11 @@ import Title from './Components/Title/Title'
 import Ongoing from './Components/Ongoing/Ongoing'
 import Contact from './Components/Contact/Contact'
 import Teacher from './Components/Teacher/Teacher'
+import SystemConfig from './Components/SystemConfig/SystemConfig'
+import HonorsProgram from './Components/HonorsProgram/HonorsProgram'
+import Activities from './Components/Activities/Activities'
+import FacultyDevelopment from './Components/FacultyDevelopment/FacultyDevelopment'
+import FuturePlans from './Components/FuturePlans/FuturePlans'
 // import Slider from './Components/Gallery/Gallery'
 // import Carousel from './Components/Gallery/Carousel'
 // import { slides } from './Components/data/carouselData.json'
@@ -33,6 +37,16 @@ const App = () => {
          <Carousel/> 
          <Title  title={'Outreach Program'}/>
          <Carousel2/>
+        <Title subTitle={'B.Tech. Honors'} title={'GPU-Accelerated Computing Program'}/>
+        <HonorsProgram />
+        <Title subTitle={'Department'} title={'Activities & Achievements'}/>
+        <Activities />
+        <Title subTitle={'Faculty'} title={'Development & Research Excellence'}/>
+        <FacultyDevelopment />
+        <Title subTitle={'Future'} title={'Strategic Plans & Pipeline'}/>
+        <FuturePlans />
+        <Title subTitle={'System'} title={'Configurations'}/>
+        <SystemConfig />
         <Title subTitle={'Faculty'} title={'Know About our Faculty'}/>
         <Teacher />
       <Title subTitle={'Contact Us'} title={'Get in Touch'}/>

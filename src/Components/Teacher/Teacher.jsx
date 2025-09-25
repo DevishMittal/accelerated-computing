@@ -27,7 +27,7 @@ function App() {
   }, [index]);
 
   return (
-    <section className={styles["section"]}>
+    <section className={styles["section"]} id="faculty-profiles">\
       <div className={styles["title"]}>
         {/* <h2>
           <span>/</span>reviews

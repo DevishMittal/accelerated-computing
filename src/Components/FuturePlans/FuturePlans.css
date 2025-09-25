@@ -1,0 +1,348 @@
+.future-plans {
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #2d1b69 0%, #1a1a2e 50%, #16213e 100%);
+  color: white;
+  min-height: 100vh;
+}
+
+.plans-container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.plans-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.plans-header h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+  background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.plans-header p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+  color: #b8c5d1;
+}
+
+.plans-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+.plans-tab-button {
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  color: white;
+  padding: 12px 24px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 500;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+
+.plans-tab-button:hover {
+  background: rgba(255, 107, 107, 0.2);
+  border-color: #ff6b6b;
+  transform: translateY(-2px);
+}
+
+.plans-tab-button.active {
+  background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+  border-color: #ff6b6b;
+  color: white;
+  box-shadow: 0 8px 20px rgba(255, 107, 107, 0.3);
+}
+
+.plans-content {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 20px;
+  padding: 40px;
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.section-header h3 {
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: #ff6b6b;
+  margin-bottom: 10px;
+}
+
+.pipeline-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 25px;
+}
+
+.pipeline-category {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 15px;
+  padding: 25px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+}
+
+.pipeline-category:hover {
+  background: rgba(255, 255, 255, 0.12);
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.pipeline-category h4 {
+  color: #4ecdc4;
+  font-weight: 600;
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid rgba(78, 205, 196, 0.3);
+}
+
+.activity-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.activity-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 12px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.activity-item:hover {
+  background: rgba(255, 255, 255, 0.1);
+  transform: translateX(5px);
+}
+
+.activity-bullet {
+  color: #4ecdc4;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 2px;
+  flex-shrink: 0;
+}
+
+.activity-text {
+  color: #e0e0e0;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.challenges-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 30px;
+}
+
+.challenge-card {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 20px;
+  padding: 30px;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.challenge-card:hover {
+  background: rgba(255, 255, 255, 0.12);
+  transform: translateY(-8px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+.challenge-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+}
+
+.challenge-icon {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.3));
+}
+
+.challenge-card h4 {
+  color: #ff6b6b;
+  font-weight: 600;
+  font-size: 1.4rem;
+  margin-bottom: 15px;
+}
+
+.challenge-card p {
+  color: #d0d0d0;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.plans-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.plan-card {
+  border-radius: 15px;
+  padding: 25px;
+  border: 2px solid;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+
+.plan-card:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+}
+
+.plan-card::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 0%, transparent 70%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.plan-card:hover::before {
+  opacity: 1;
+}
+
+.plan-header {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+  letter-spacing: 0.5px;
+  position: relative;
+  z-index: 2;
+}
+
+.plan-subtitle {
+  color: #e0e0e0;
+  font-size: 0.95rem;
+  font-weight: 400;
+  line-height: 1.4;
+  position: relative;
+  z-index: 2;
+}
+
+@media (max-width: 1200px) {
+  .plans-container {
+    max-width: 95%;
+  }
+  
+  .pipeline-grid {
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  .future-plans {
+    padding: 60px 15px;
+  }
+  
+  .plans-header h2 {
+    font-size: 2.2rem;
+  }
+  
+  .plans-tabs {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .plans-tab-button {
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .plans-content {
+    padding: 25px;
+  }
+  
+  .pipeline-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .challenges-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .plans-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .section-header h3 {
+    font-size: 1.8rem;
+  }
+  
+  .pipeline-category h4 {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .plans-header h2 {
+    font-size: 1.8rem;
+  }
+  
+  .plans-header p {
+    font-size: 1rem;
+  }
+  
+  .section-header h3 {
+    font-size: 1.6rem;
+  }
+  
+  .pipeline-category {
+    padding: 20px;
+  }
+  
+  .challenge-card {
+    padding: 25px;
+  }
+  
+  .plan-card {
+    padding: 20px;
+  }
+  
+  .plan-header {
+    font-size: 1rem;
+  }
+  
+  .plan-subtitle {
+    font-size: 0.9rem;
+  }
+}

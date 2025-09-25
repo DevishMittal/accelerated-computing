@@ -19,8 +19,24 @@ nav {
 nav ul li {
     display: inline-block;
     list-style: none;
-    margin: 5px 20px;
-    font-size: 20px;
+    margin: 2px 12px;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 8px 12px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
 }
 .dark-nav{
     background:#212ea0;
@@ -38,7 +54,11 @@ nav ul li {
         width: 140px;
     }
     nav ul li{
-        margin: 10px 15px;
+        margin: 2px 8px;
+        font-size: 14px;
+    }
+    nav ul li a {
+        padding: 6px 10px;
     }
 }
 @media (max-width: 840px) {
@@ -50,22 +70,64 @@ nav ul li {
         top: 0;
         right: 0;
         bottom: 0;
-        background: #212ea0;
+        background: linear-gradient(135deg, #212ea0 0%, #1a1a2e 100%);
         z-index: -1;
-        width: 200px;
-        padding-top: 70px;
+        width: 280px;
+        padding-top: 80px;
         transition: 0.5s;
+        overflow-y: auto;
+        box-shadow: -10px 0 30px rgba(0, 0, 0, 0.3);
     }
     nav ul li {
         display: flex;
-        margin: 25px 40px;
+        margin: 15px 20px;
+        font-size: 16px;
+    }
+    nav ul li a {
+        width: 100%;
+        padding: 12px 20px;
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        background: rgba(255, 255, 255, 0.05);
+        transition: all 0.3s ease;
+    }
+    nav ul li a:hover {
+        background: rgba(255, 255, 255, 0.15);
+        transform: translateX(5px);
+        border-color: rgba(255, 255, 255, 0.3);
     }
     .menu-icon {
         display: block;
         width: 30px;
         cursor: pointer;
+        margin-right: 20px;
+        transition: transform 0.3s ease;
+    }
+    .menu-icon:hover {
+        transform: scale(1.1);
     }
     .hide-mobile-menu {
-        right: -200px;
+        right: -280px;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo {
+        width: 120px;
+        padding: 10px;
+    }
+    nav ul {
+        width: 260px;
+        padding-top: 70px;
+    }
+    nav ul li {
+        margin: 12px 15px;
+        font-size: 15px;
+    }
+    nav ul li a {
+        padding: 10px 15px;
+    }
+    .hide-mobile-menu {
+        right: -260px;
     }
 }
